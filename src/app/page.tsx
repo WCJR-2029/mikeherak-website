@@ -32,8 +32,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="mt-4 inline-flex items-center gap-1.5 font-body text-sm text-muted hover:text-accent transition-colors duration-200"
           >
-            Connect on LinkedIn
-            <span aria-hidden="true">↗</span>
+            For more info, connect with me on LinkedIn
           </a>
         </header>
 
