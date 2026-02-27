@@ -102,6 +102,19 @@ export default async function TrailPage({
         {/* ── Ornamental divider ── */}
         <hr className="my-10 border-none h-px bg-gradient-to-r from-transparent via-border to-transparent" />
 
+        {/* ── Trail Synthesis ── */}
+        {trail.synthesisHtml && (
+          <section className="mb-10">
+            <div
+              className="trail-synthesis"
+              dangerouslySetInnerHTML={{ __html: trail.synthesisHtml }}
+            />
+          </section>
+        )}
+
+        {/* ── Ornamental divider ── */}
+        <hr className="my-10 border-none h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+
         {/* ── Books on This Trail ── */}
         {trail.books.length > 0 && (
           <section className="mb-10">

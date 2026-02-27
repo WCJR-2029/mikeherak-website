@@ -32,6 +32,7 @@ export interface TrailExcerpt {
 
 export interface Trail extends TrailMeta {
   excerpts: TrailExcerpt[];
+  synthesisHtml: string;
 }
 
 function filenameToSlugAndDate(filename: string): { slug: string; date: string } {
@@ -79,6 +80,14 @@ function parseBooks(content: string): TrailBook[] {
   }
 
   return books;
+}
+
+async function parseSynthesis(content: string): Promise<string> {
+  const match = content.match(/### Trail Synthesis\s+([\s\S]+?)(?:\n---|\n##)/);
+  if (!match) return '';
+  const text = match[1].trim();
+  const processed = await remark().use(remarkHtml).process(text);
+  return processed.toString();
 }
 
 async function parseExcerpts(content: string): Promise<TrailExcerpt[]> {
@@ -184,6 +193,7 @@ export async function getTrail(slug: string): Promise<Trail | null> {
   const wordCount = raw.split(/\s+/).filter(Boolean).length;
   const readingTime = Math.max(1, Math.ceil(wordCount / 200));
   const excerpts = await parseExcerpts(raw);
+  const synthesisHtml = await parseSynthesis(raw);
 
   return {
     slug,
@@ -196,6 +206,7 @@ export async function getTrail(slug: string): Promise<Trail | null> {
     books,
     readingTime,
     excerpts,
+    synthesisHtml,
   };
 }
 

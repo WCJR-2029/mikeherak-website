@@ -237,3 +237,16 @@
 
 .trail-excerpt-body strong { font-weight: 600; color: #f5f0e8; }
 .trail-excerpt-body em { font-style: italic; }
+
+/* Trail synthesis — the thematic argument rendered before excerpts */
+.trail-synthesis {
+  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: #e8e0d4;
+}
+
+.trail-synthesis p { margin-top: 1.4em; margin-bottom: 0; }
+.trail-synthesis > :first-child { margin-top: 0; }
+.trail-synthesis em { font-style: italic; }
+.trail-synthesis strong { font-weight: 600; color: #f5f0e8; }

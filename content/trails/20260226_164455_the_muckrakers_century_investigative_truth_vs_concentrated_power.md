@@ -4,6 +4,12 @@
 
 **Rationale**: Across Titan, Bully Pulpit, Bad Blood, Everything Store, and Manufacturing Consent, the same drama replays — a lone reporter or whistleblower confronts a fortress of corporate secrecy — and the structural dynamics of that confrontation have barely changed in 120 years.
 
+### Trail Synthesis
+
+The story that runs through this trail is not really about journalism — it is about what happens when the gap between private reality and public myth becomes too large to sustain. Ida Tarbell did not go after Standard Oil because she was an idealist; she went because she had watched Rockefeller's secret railroad rebates destroy her father's livelihood, and she could not unknow what she had seen. That wound produced the investigative temperament: a refusal to accept the official story when private evidence contradicts it. The January 1903 issue of McClure's proved the method — meticulously documented facts, allowed to speak for themselves without preaching — and a fractured public, for the first time, recognized what it had only suspected was true. A century later, John Carreyrou sat in a Brooklyn car, unable to believe that a college dropout with two semesters of chemical engineering had revolutionized blood testing, and followed the same instinct to the gap between claim and evidence.
+
+What the trail makes visible is that concentrated power always tells the same story about itself: that its dominance is efficiency, that critics are malcontents and ingrates, that exposure is persecution by entrenched interests. Rockefeller believed the oil producers whose livelihoods he'd destroyed simply failed to appreciate his superefficient United Pipe Lines system. Holmes appeared on CNBC in her all-black attire and told Jim Cramer that this is what happens when you try to change the world. The counter-move is identical across 120 years: discredit the witnesses, deploy legal coercion, and force the documented truth to outlast the PR offensive. Hamilton provided the constitutional bedrock from the beginning — a free press exists precisely to give early alarm against the encroachments of power, and the truth, he insisted before a hushed courtroom, is not a crime.
+
 ---
 
 ## Trail Metadata

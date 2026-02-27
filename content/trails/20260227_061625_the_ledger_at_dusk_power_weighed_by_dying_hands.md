@@ -4,6 +4,12 @@
 
 **Rationale**: By reading these figures' late-life reckonings side by side, we see how the architecture of power looks from inside its ruins — and whether any of them found the sum worth the price.
 
+### Trail Synthesis
+
+Every figure on this trail arrives, eventually, at the same moment: a powerful man alone with a reckoning, trying to determine whether the sum of his life's account is worth the price it demanded. Augustus opens the ledger: he has outlived every friend who gave his life meaning, survived past his own usefulness, and arrived at the conclusion that if to conquer a world is a small thing, to rule it is even less. Achilles posed the original terms from the Iliad — fame or life, renown or years — and rejected the treasury of spoils on the grounds that life is not to be bought with heaps of gold. Grant rewrites that formula with pen and paper: the general who commanded armies now commands only his dying, sealing a letter that might protect a grandson's future while cancer spreads in his mouth. Johnson drives himself over ice roads to a civil rights symposium his doctors have forbidden, because the statesman who suspects his time is almost up overrules the body.
+
+What the trail complicates is the question of what counts as a verdict. Scrooge's vision shows the nightmare inversion: the miser whose life ledger shows only accumulation and isolation, plundered and bereft at the end, while the beloved dead leave good deeds that spring from the wound. Marlow returns Kurtz's letters and portrait to the woman who loved him, carrying forward a slim residue from a life consumed by its own reach — and the memory that a conquering darkness has won. William the Conqueror divides his kingdom on his deathbed and discovers that his final act of power is merely a guess, a wager on sons he can no longer control. And Monte Cristo, alone at his desk converting a lifetime of calculated vengeance into a will, hears Haidée tear the document apart and whispers the confession every emperor on this trail approaches but few dare to speak aloud: *I might, then, have been happy yet*. The ledger was never measured in empires or campaigns. It was measured in what remained alive when the hand finally released its grip.
+
 ---
 
 ## Trail Metadata
