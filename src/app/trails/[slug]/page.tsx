@@ -159,6 +159,9 @@ export default async function TrailPage({
                 <p className="trail-connection">{excerpt.connection}</p>
               )}
 
+              {/* Passage label */}
+              <p className="trail-excerpt-header mt-4 mb-3">Passage</p>
+
               {/* Excerpt body */}
               <div
                 className="trail-excerpt-body"
