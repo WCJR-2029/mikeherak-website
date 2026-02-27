@@ -154,9 +154,12 @@ export default async function TrailPage({
                 Excerpt {i + 1}&ensp;&middot;&ensp;{excerpt.bookTitle}
               </p>
 
-              {/* Connection text */}
+              {/* Context label + connection text */}
               {excerpt.connection && (
-                <p className="trail-connection">{excerpt.connection}</p>
+                <>
+                  <p className="trail-context-label">Context</p>
+                  <p className="trail-connection">{excerpt.connection}</p>
+                </>
               )}
 
               {/* Passage label */}

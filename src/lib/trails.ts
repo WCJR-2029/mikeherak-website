@@ -106,6 +106,7 @@ function cleanExcerptText(text: string): string {
     const t = p.trim();
     if (/^\s*\d+\s*$/.test(t)) return false; // standalone footnote number
     if (/^\[back\]/i.test(t) && t.length < 40) return false; // ebook footnote back-reference
+    if (/\bop\.\s*cit\b/i.test(t) && t.length < 80) return false; // short bibliographic citation
     const plain = t.replace(/^>\s*/, '');
     if (COPYRIGHT_SIGNALS.some((sig) => plain.includes(sig))) return false;
     return true;

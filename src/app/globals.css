@@ -190,7 +190,18 @@
   font-family: var(--font-sans-custom), system-ui, sans-serif;
 }
 
-/* "PASSAGE" label — divides curator analysis from book text */
+/* "CONTEXT" label — marks curator's analytical voice */
+.trail-context-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #a09890;
+  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  margin-top: 1.25em;
+  margin-bottom: 0.625em;
+}
+
+/* "PASSAGE" label — marks book text */
 .trail-passage-label {
   font-size: 0.6875rem;
   letter-spacing: 0.12em;
