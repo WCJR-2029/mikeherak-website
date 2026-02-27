@@ -90,11 +90,25 @@ async function parseSynthesis(content: string): Promise<string> {
   return processed.toString();
 }
 
+// Phrases that only appear in ebook copyright pages — never in substantive text.
+const COPYRIGHT_SIGNALS = [
+  'All rights reserved under International and Pan-American Copyright Conventions',
+  'No part of this text may be reproduced, transmitted, downloaded, decompiled',
+  'nonexclusive, nontransferable right to access and read the text of this e-book',
+  'Library of Congress Cataloging-in-Publication Data',
+];
+
 function cleanExcerptText(text: string): string {
   const ENDS_SENTENCE = /[.?!;"'"\u201d\u2019*\]>)]\s*$/;
 
-  // First pass: remove standalone footnote numbers (lines with only digits)
-  const paras = text.split(/\n{2,}/).filter((p) => !/^\s*\d+\s*$/.test(p.trim()));
+  // First pass: remove standalone footnote numbers and copyright page boilerplate
+  const paras = text.split(/\n{2,}/).filter((p) => {
+    const t = p.trim();
+    if (/^\s*\d+\s*$/.test(t)) return false; // standalone footnote number
+    const plain = t.replace(/^>\s*/, '');
+    if (COPYRIGHT_SIGNALS.some((sig) => plain.includes(sig))) return false;
+    return true;
+  });
 
   // Second pass: merge continuation fragments caused by ebook formatting
   const out: string[] = [];

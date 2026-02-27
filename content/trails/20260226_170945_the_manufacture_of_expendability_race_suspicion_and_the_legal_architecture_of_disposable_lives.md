@@ -49,54 +49,7 @@ What the trail adds to this argument is depth of genealogy and the difficulty of
 **Author**: None  
 **Connection**: Wright's 1940 alarm establishes the foundational premise of the entire trail: that America's racial architecture produces dehumanized, expendable lives through a self-reinforcing system of segregation, fantasy, and willful blindness—a system whose legal and psychological machinery the subsequent texts will anatomize.
 
-> Copyright
-A hardcover edition
-of Native Son
-was originally published in 1940 by Harper & Brothers. A paperback edition was published in 1966 by Perennial Library and reissued in 1987 and 1989. The text as restored by The Library of America was published in 1991 in a volume entitled
-Richard Wright: Early Works
-that also included
-Lawd Today!
-and
-Uncle Tom’s Children.
-Acknowledgment is made to
-The Saturday Review of Literature
-for permission to reproduce those parts of “How ‘Bigger’ was Born” that appeared in the issue of 1 June 1940. The article was published in its entirety for the first time in 1940 by Harper & Brothers.
-P.S.™ is a registered trademark of HarperCollins Publishers.
-NATIVE SON
-. Copyright © 1940 by Richard Wright. Notes and chronology copyright © 1991 by Literary Classics of the United States, Inc. Restored edition copyright © 1993 by Ellen Wright. Introduction copyright © 1993 by Arnold Rampersad. All rights reserved under International and Pan-American Copyright Conventions. By payment of the required fees, you have been granted the nonexclusive, nontransferable right to access and read the text of this e-book on-screen. No part of this text may be reproduced, transmitted, downloaded, decompiled, reverse-engineered, or stored in or introduced into any information storage and retrieval system, in any form or by any means, whether electronic or mechanical, now known or hereafter invented, without the express written permission of HarperCollins e-books.
-FIRST HARPER PERENNIAL PAPERBACK PUBLISHED 1993.
-FIRST PERENNIAL CLASSICS EDITION PUBLISHED 1998.
-REISSUED IN HARPER PERENNIAL MODERN CLASSICS 2005, 2023.
-Cover photograph:
-Untitled, Harlem, New York, 1948
-by Gordon Parks © The Gordon Parks Foundation
-Library of Congress Cataloging-in-Publication Data
-Wright, Richard, 1908-1960.
-Native son / Richard Wright.
-p.         cm. – (Perennial classics)
-ISBN 978-0-06-083756-3
-1. Afro-American men-Fiction. 2.Thomas, Bigger (Fictitious character) —
-Fiction. 3. Chicago (Ill.)—Fiction. I. Title.
-PS3545.R815N25   1998
-813’.52—dc21
-98-28838
-Digital Edition JANUARY 2023 ISBN: 978-0-06-193541-1
-Version 11172022
-Print ISBN: 978-0-06083756-3
-
-Dedication
-TO
-My Mother
-who, when I was a child at her knee, taught me to revere the fanciful and the imaginative
-
-Even today is my complaint rebellious,
-My stroke is heavier than my groaning.
-—J
-OB
-
-Introduction
-
-The sound of the alarm that opens
+> The sound of the alarm that opens
 
 Native Son
 
