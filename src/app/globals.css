@@ -177,3 +177,63 @@
   font-size: 0.875rem; color: #6b6560;
   margin-top: -1em; margin-bottom: 2em;
 }
+
+/* ── Trail Styles ─────────────────────────────────────── */
+
+/* Attribution header: "EXCERPT 1 · Book Title" */
+.trail-excerpt-header {
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6b6560;
+  margin-bottom: 0.75em;
+  font-family: var(--font-sans-custom), system-ui, sans-serif;
+}
+
+/* The analytical bridge above each excerpt */
+.trail-connection {
+  font-style: italic;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: #6b6560;
+  margin-bottom: 1.25em;
+  font-family: var(--font-sans-custom), system-ui, sans-serif;
+}
+
+/* Book chip on index cards */
+.trail-book-chip {
+  display: inline-block;
+  font-size: 0.6875rem;
+  color: #6b6560;
+  border: 1px solid #2a2725;
+  border-radius: 3px;
+  padding: 0.15em 0.5em;
+  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  white-space: nowrap;
+}
+
+/* Excerpt body text */
+.trail-excerpt-body {
+  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: #e8e0d4;
+}
+
+.trail-excerpt-body p { margin-top: 1.25em; margin-bottom: 0; }
+.trail-excerpt-body > :first-child { margin-top: 0; }
+
+.trail-excerpt-body blockquote {
+  position: relative; margin: 1.5em 0;
+  padding: 1em 0 1em 1.5em;
+  border-left: 3px solid #c8a96e;
+  font-style: italic; color: #e8e0d4;
+  background-color: rgba(22, 22, 22, 0.6);
+  border-radius: 0 6px 6px 0;
+}
+
+.trail-excerpt-body blockquote p { margin-top: 0; }
+.trail-excerpt-body blockquote p + p { margin-top: 0.75em; }
+
+.trail-excerpt-body strong { font-weight: 600; color: #f5f0e8; }
+.trail-excerpt-body em { font-style: italic; }
