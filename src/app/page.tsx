@@ -25,7 +25,7 @@ export default function HomePage() {
           <div className="mt-4 w-10 h-px bg-accent opacity-80" />
           <p className="mt-4 font-body text-base leading-relaxed text-muted">
             Curious, independent, hard to categorize. Welcome to my little
-            corner of the internet &mdash; writing about things I find cool
+            corner of the internet, where I write about things I find cool
             and whatever else crosses my mind.
           </p>
           <a
