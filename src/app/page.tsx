@@ -24,10 +24,19 @@ export default function HomePage() {
           </h1>
           <div className="mt-4 w-10 h-px bg-accent opacity-80" />
           <p className="mt-4 font-body text-base leading-relaxed text-muted">
-            Marine. Percussionist. Fortune&nbsp;100 ops leader turned
-            independent mind. Writing about whatever I&nbsp;can&rsquo;t stop
-            thinking about.
+            Curious, independent, hard to categorize. Welcome to my little
+            corner of the internet &mdash; writing about things I find cool
+            and whatever else crosses my mind.
           </p>
+          <a
+            href="https://www.linkedin.com/in/mike-herak/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-1.5 font-body text-sm text-muted hover:text-accent transition-colors duration-200"
+          >
+            Connect on LinkedIn
+            <span aria-hidden="true">↗</span>
+          </a>
         </header>
 
         {/* ── Post List ── */}
