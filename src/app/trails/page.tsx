@@ -32,7 +32,7 @@ export default function TrailsPage() {
           <p className="mt-4 font-body text-base leading-relaxed text-muted">
             Some ideas don&rsquo;t live in one book. They show up in a history
             of race, a study of how brains work under stress, a political
-            philosophy written a century ago &mdash; and they&rsquo;re richer
+            philosophy written a century ago, and they&rsquo;re richer
             for the company. These trails collect the passages that, together,
             make the argument more clearly than any one source could.
           </p>
