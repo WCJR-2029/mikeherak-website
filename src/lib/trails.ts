@@ -101,10 +101,11 @@ const COPYRIGHT_SIGNALS = [
 function cleanExcerptText(text: string): string {
   const ENDS_SENTENCE = /[.?!;"'"\u201d\u2019*\]>)]\s*$/;
 
-  // First pass: remove standalone footnote numbers and copyright page boilerplate
+  // First pass: remove standalone footnote numbers, [back] markers, and copyright boilerplate
   const paras = text.split(/\n{2,}/).filter((p) => {
     const t = p.trim();
     if (/^\s*\d+\s*$/.test(t)) return false; // standalone footnote number
+    if (/^\[back\]/i.test(t) && t.length < 40) return false; // ebook footnote back-reference
     const plain = t.replace(/^>\s*/, '');
     if (COPYRIGHT_SIGNALS.some((sig) => plain.includes(sig))) return false;
     return true;

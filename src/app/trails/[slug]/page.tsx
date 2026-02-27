@@ -160,7 +160,7 @@ export default async function TrailPage({
               )}
 
               {/* Passage label */}
-              <p className="trail-excerpt-header mt-4 mb-3">Passage</p>
+              <p className="trail-passage-label">Passage</p>
 
               {/* Excerpt body */}
               <div

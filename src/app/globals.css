@@ -190,6 +190,19 @@
   font-family: var(--font-sans-custom), system-ui, sans-serif;
 }
 
+/* "PASSAGE" label — divides curator analysis from book text */
+.trail-passage-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #a09890;
+  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 0.875em;
+  padding-top: 1em;
+  border-top: 1px solid #2a2725;
+}
+
 /* The analytical bridge above each excerpt */
 .trail-connection {
   font-style: italic;
