@@ -30,10 +30,10 @@ export default function TrailsPage() {
           </h1>
           <div className="mt-4 w-10 h-px bg-accent opacity-80" />
           <p className="mt-4 font-body text-base leading-relaxed text-muted">
-            Some ideas don&rsquo;t live in one book. They show up in a history
-            of race, a study of how brains work under stress, a political
-            philosophy written a century ago, and they&rsquo;re richer
-            for the company. These trails collect the passages that, together,
+            Some ideas don&rsquo;t live in one book. They show up in a study
+            of how brains work under stress, a political philosophy written a
+            century ago, a novel no one assigns anymore, and they&rsquo;re
+            richer for the company. These trails collect the passages that, together,
             make the argument more clearly than any one source could.
           </p>
         </header>
