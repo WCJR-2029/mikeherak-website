@@ -28,7 +28,7 @@ The point of the diagram: the {self} maps don't float in a prompt. They sit on a
 
 ## Part 2 - The Webb Equation of Emotion, spelled out
 
-This is the part least likely to be familiar, so it gets the most room. (Source: Webb's MHH-EI-for-AI repository, linked above, and its model specification. The definitions below are his; where SAM departs from his literal form, it is flagged.)
+Webb's model is worth spelling out in full, so it gets the most room. (Source: Webb's MHH-EI-for-AI repository, linked above, and its model specification. The definitions below are his; where SAM departs from his literal form, it is flagged.)
 
 Webb's model reduces an emotion to a *comparison*. Every mind carries a **{self}** - the internal model of what it is attached to and identifies with (people, ideas, accomplishments, life-story). For any attachment, define:
 
