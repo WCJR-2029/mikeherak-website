@@ -107,7 +107,12 @@ export async function getPost(slug: string): Promise<Post | null> {
   const readingTime = Math.max(1, Math.ceil(wordCount / 200));
 
   const processed = await remark().use(remarkHtml).process(content);
-  const { html: contentHtml, toc } = addHeadingIdsAndToc(processed.toString());
+  const { html, toc } = addHeadingIdsAndToc(processed.toString());
+  // External links open in a new tab so readers don't lose the article.
+  const contentHtml = html.replace(
+    /<a href="(https?:\/\/[^"]+)"/g,
+    '<a href="$1" target="_blank" rel="noopener noreferrer"',
+  );
 
   return {
     slug,
