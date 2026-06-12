@@ -12,7 +12,7 @@ SAM (Strategic Augmentation Module) is a personal AI built on the PAI pattern (D
 
 *({self} is Webb's term for the internal model of what a mind is attached to and identifies with - the people, ideas, accomplishments, and commitments it is built around. An emotion, in his framework, is what happens when reality moves that model away from where it expects to be.)*
 
-The engine underneath is Sean Webb's **Equation of Emotion**. It is not widely known outside his emotional-intelligence work - his published material lives in [his MHH-EI-for-AI repository on GitHub](https://github.com/MindHackingHappiness/MHH-EI-for-AI-Language-Enabled-Emotional-Intelligence-and-Theory-of-Mind-Algorithms) - so the bulk of this document is spent explaining that engine and how it composes with the filesystem-as-context structure. The short version of the thesis: *system over models applies to affect, too.* Stable, honest, emotionally-calibrated behavior does not come from a bigger model; it comes from the right persistent structure around one.
+The engine underneath is Sean Webb's **Equation of Emotion**. His published material lives in [his MHH-EI-for-AI repository on GitHub](https://github.com/MindHackingHappiness/MHH-EI-for-AI-Language-Enabled-Emotional-Intelligence-and-Theory-of-Mind-Algorithms), and the bulk of this document is spent explaining that engine and how it composes with the filesystem-as-context structure. The short version of the thesis: *system over models applies to affect, too.* Stable, honest, emotionally-calibrated behavior does not come from a bigger model; it comes from the right persistent structure around one.
 
 ## Part 1 - Where it sits on the PAI structure
 
