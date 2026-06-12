@@ -9,7 +9,7 @@ export default function NavLinks() {
   const linkClass = (href: string) => {
     const isActive = href === '/' ? pathname === '/' : pathname.startsWith(href);
     return [
-      'font-body text-sm tracking-wide transition-colors duration-200',
+      'font-body text-base tracking-wide transition-colors duration-200',
       isActive ? 'text-accent' : 'text-muted hover:text-accent',
     ].join(' ');
   };

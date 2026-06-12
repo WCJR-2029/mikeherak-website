@@ -41,7 +41,16 @@ export default function TrailsPage() {
         {/* ── Trail List ── */}
         <section>
           {trails.length === 0 ? (
-            <p className="font-body text-muted">No trails yet. Check back soon.</p>
+            <div className="rounded-lg border border-border bg-surface px-5 py-6">
+              <p className="font-body text-base leading-relaxed text-fg">
+                The trail collection is being rebuilt from the ground up.
+              </p>
+              <p className="mt-3 font-body text-[0.9375rem] leading-relaxed text-muted">
+                New cross-book trails - sequences that bridge authors and ideas
+                that would never otherwise sit on the same shelf - are being
+                curated now. Essays and thought trails coming soon.
+              </p>
+            </div>
           ) : (
             <ul className="space-y-8">
               {trails.map((trail) => (
@@ -75,7 +84,7 @@ export default function TrailsPage() {
 
                     {/* Description */}
                     {trail.description && (
-                      <p className="mt-2 font-body text-[0.9375rem] leading-relaxed text-muted line-clamp-2">
+                      <p className="mt-2 font-body text-[0.9375rem] leading-relaxed text-muted">
                         {trail.description}
                       </p>
                     )}

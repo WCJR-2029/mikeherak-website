@@ -66,7 +66,7 @@ export default function HomePage() {
                     </h2>
 
                     {post.description && (
-                      <p className="mt-2 font-body text-[0.9375rem] leading-relaxed text-muted line-clamp-2">
+                      <p className="mt-2 font-body text-[0.9375rem] leading-relaxed text-muted">
                         {post.description}
                       </p>
                     )}

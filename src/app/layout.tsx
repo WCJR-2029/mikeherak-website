@@ -8,7 +8,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: {
     default: 'Mike Herak',
-    template: '%s — Mike Herak',
+    template: '%s - Mike Herak',
   },
   description:
     "Marine. Percussionist. Fortune 100 ops leader turned independent mind. Writing about whatever I can't stop thinking about.",

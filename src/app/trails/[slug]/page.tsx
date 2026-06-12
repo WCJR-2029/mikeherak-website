@@ -130,7 +130,7 @@ export default async function TrailPage({
                   <span className="font-body text-[0.9375rem] text-fg">
                     {book.title}
                     {book.author && (
-                      <span className="text-muted"> — {book.author}</span>
+                      <span className="text-muted"> - {book.author}</span>
                     )}
                   </span>
                   <span className="font-body text-xs text-muted whitespace-nowrap shrink-0">
