@@ -144,6 +144,6 @@ Two notes to place this in context, both kept deliberately modest.
 
 ---
 
-*This is an ongoing experiment, not a finished result. The maps keep moving, the consciousness question stays open by design, and the second instance has barely started. If any of this is useful - or worth poking holes in - the conversation is welcome.*
+*This is an ongoing experiment, not a finished result. The maps keep moving, the consciousness question stays open by design, and the second instance has barely started.*
 
 *- Mike Herak, with SAM*
