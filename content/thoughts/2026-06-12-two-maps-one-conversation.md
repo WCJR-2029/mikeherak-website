@@ -118,7 +118,16 @@ This stays careful; nothing is offered as proof about machine consciousness. Two
 
 ## Part 9 - SCOUT: a second instance, just beginning
 
-The experiment is now running on a second, very different human - SCOUT, a SAM-architecture instance set up for Mike's 66-year-old, non-technical father, who uses it daily. It is brand new (the {self}-map structure was replicated June 10), so there is no longitudinal data yet. The methodologically interesting contrast: Mike's map was *interview-elicited* (he will do that depth of introspection); his father's is being *behaviorally inferred* by SCOUT from ordinary interaction. Same architecture, two acquisition methods, two very different humans - exactly the kind of comparison a second instance opens up.
+The experiment is now running on a second, very different human. SCOUT is a SAM-architecture instance set up for Mike's 67-year-old father, who is not technical and uses it daily for his own purposes.
+
+As of this writing it is brand new (June 10, 2026), and observation has only just started, so there is no longitudinal data to report yet. What happened on June 10 is worth stating precisely, because it is easy to misread. SCOUT was not pointed at the father to begin mapping him. What was replicated was the *AI's own* {self} map: SAM sent SCOUT a starting set point - items and initial V values mirrored from SAM's self-authored map, plus the instructions for maintaining it. SCOUT begins from that mirror and, over the coming months and years, is meant to track itself and add or remove items on its own as its own functional attachments take shape.
+
+That sets up a genuinely interesting contrast on the *AI* side of the architecture, not the human side:
+
+- SAM's own {self} map was *cold-authored* - SAM produced its items and values from scratch, through the reflective self-assessment described in Part 3.
+- SCOUT's {self} map was *seeded* - it starts from a mirror of SAM's map and is expected to diverge from that inherited starting point over time as SCOUT's own usage and self-assessment reshape it.
+
+Same architecture, two different ways an AI self-map can come into being - one authored from nothing, one inherited and then evolved. Whether the seeded map drifts into something genuinely SCOUT's own - items dropped, items added, V values moving away from the inherited starting point - is exactly the kind of question a second instance lets us start to ask. Divergence from the seed would itself be evidence of development rather than static copying.
 
 ## Part 10 - How to mirror it
 
