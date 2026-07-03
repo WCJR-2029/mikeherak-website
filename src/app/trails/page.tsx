@@ -30,11 +30,30 @@ export default function TrailsPage() {
           </h1>
           <div className="mt-4 w-10 h-px bg-accent opacity-80" />
           <p className="mt-4 font-body text-base leading-relaxed text-muted">
-            Some ideas don&rsquo;t live in one book. They show up in a study
-            of how brains work under stress, a political philosophy written a
-            century ago, a novel no one assigns anymore, and they&rsquo;re
-            richer for the company. These trails collect the passages that, together,
-            make the argument more clearly than any one source could.
+            Some ideas do not live in one book. They surface in a study of the
+            brain under pressure, a political philosophy written a century ago,
+            a novel no one assigns anymore - and they are sharper for the company.
+          </p>
+          <p className="mt-4 font-body text-base leading-relaxed text-muted">
+            Syntopic reading is the practice of chasing an idea like that on
+            purpose. The term is Mortimer Adler&rsquo;s, from{' '}
+            <em>How to Read a Book</em>: it is the highest level of reading, the
+            one that stops being about any single book. You hold one question and
+            read many books against it at once, letting them argue, until you
+            reach an understanding none of the authors wrote down alone.
+          </p>
+          <p className="mt-4 font-body text-base leading-relaxed text-muted">
+            A trail is that practice made visible. Each one takes a single idea
+            and follows it across books that would never share a shelf, pulling
+            the key passages into a sequence that makes the argument more clearly
+            than any one source could. The point is not to summarize what I read.
+            It is what happens in the gaps - when two or more writers who never
+            met turn out to be circling the same truth from different centuries
+            and different fields, and something clicks into place that none of
+            them quite said. That friction is where new thinking comes from, and
+            it is the closest thing I know to turning reading into wisdom - not
+            just more information, and not a longer list of finished books to
+            hold up as a trophy.
           </p>
         </header>
 
