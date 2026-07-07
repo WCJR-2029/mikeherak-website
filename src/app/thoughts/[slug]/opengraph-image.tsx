@@ -19,6 +19,12 @@ export default async function Image({
   const post = await getPost(slug);
   const title = post?.title ?? 'Mike Herak';
   const description = post?.description ?? "Writing about whatever I can't stop thinking about.";
+  // Truncate to fit the card without cutting a word in half: trim back to the
+  // last whole word, drop any trailing punctuation, then add an ellipsis.
+  const descDisplay =
+    description.length > 140
+      ? description.slice(0, 140).replace(/\s+\S*$/, '').replace(/[\s.,:;\-–—]+$/, '') + '…'
+      : description;
 
   return new ImageResponse(
     (
@@ -76,7 +82,7 @@ export default async function Image({
                 maxWidth: 940,
               }}
             >
-              {description.length > 140 ? description.slice(0, 137) + '...' : description}
+              {descDisplay}
             </div>
           ) : null}
         </div>
