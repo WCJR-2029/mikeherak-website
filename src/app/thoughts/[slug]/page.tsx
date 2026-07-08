@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getPost, getAllSlugs } from '@/lib/posts';
 import SamStackDiagram from '@/components/SamStackDiagram';
+import TrailBooks from '@/components/TrailBooks';
 
 // Marker a post can drop on its own line to inject the native SAM-stack diagram.
 const DIAGRAM_TOKEN = '<p>[[SAM_STACK_DIAGRAM]]</p>';
@@ -114,6 +115,13 @@ export default async function PostPage({
             {post.title}
           </h1>
         </header>
+
+        {/* ── Trail Books (only when frontmatter carries trail info) ── */}
+        {post.trail && (
+          <div className="mb-10">
+            <TrailBooks theme={post.trail.theme} books={post.trail.books} />
+          </div>
+        )}
 
         {/* ── Post Body ── */}
         {post.contentHtml.includes(DIAGRAM_TOKEN) ? (

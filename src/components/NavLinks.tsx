@@ -19,9 +19,6 @@ export default function NavLinks() {
       <Link href="/" className={linkClass('/')}>
         Thoughts
       </Link>
-      <Link href="/trails" className={linkClass('/trails')}>
-        Trails
-      </Link>
     </nav>
   );
 }

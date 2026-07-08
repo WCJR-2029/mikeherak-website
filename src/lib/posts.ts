@@ -6,6 +6,11 @@ import remarkHtml from 'remark-html';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'thoughts');
 
+export interface TrailInfo {
+  theme: string;
+  books: string[];
+}
+
 export interface PostMeta {
   slug: string;
   title: string;
@@ -23,6 +28,7 @@ export interface TocItem {
 export interface Post extends PostMeta {
   contentHtml: string;
   toc: TocItem[];
+  trail?: TrailInfo;
 }
 
 function slugify(s: string): string {
@@ -114,6 +120,8 @@ export async function getPost(slug: string): Promise<Post | null> {
     '<a href="$1" target="_blank" rel="noopener noreferrer"',
   );
 
+  const trail = data.trail as TrailInfo | undefined;
+
   return {
     slug,
     title: data.title as string,
@@ -122,6 +130,7 @@ export async function getPost(slug: string): Promise<Post | null> {
     readingTime,
     contentHtml,
     toc,
+    trail,
   };
 }
 
