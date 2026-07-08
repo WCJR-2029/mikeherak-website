@@ -1,6 +1,9 @@
 # Site Evolution Plan - mikeherak.com
 
 **Status**: Approved by Mike 2026-07-08. Decisions below are LOCKED - execute, don't re-litigate.
+**PHASE 1: COMPLETE 2026-07-08** - all 8 steps + Step 1.10 (GSC) shipped, deployed, and verified live
+(including a nav-alignment bug caught in visual QA and fixed same day, commit 9af5296). Phase 2a (font
+mockups) also complete, awaiting Mike's pick. Phase 2b is next up.
 **Origin**: Fable design sessions 2026-07-07/08 (palette migration, tagline workshop, Miessler/Cantey review).
 **Predecessor**: `docs/palette-migration-option-a.md` (executed + deployed 2026-07-08; kept as history).
 **Architecture decision (standing)**: mikeherak.com is the personal hub that grows sections as content
