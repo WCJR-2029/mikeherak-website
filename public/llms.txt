@@ -10,6 +10,9 @@ Quote and cite freely with a link back.
 
 - [Thoughts index](https://www.mikeherak.com/): all essays, newest first
 - [RSS feed](https://www.mikeherak.com/feed.xml): full-content feed
+- [The Synthesis Nobody Writes](https://www.mikeherak.com/thoughts/the-synthesis-nobody-writes): Mortimer Adler called reading across many books at once - around a question you bring to them - the highest level of reading. Past a handful of books it stops being thinking and turns into bookkeeping. So I built a tool for the bookkeeping part.
+- [The Difference Between Productive Obsession and Presence](https://www.mikeherak.com/thoughts/the-difference-between-productive-obsession-and-presence): More of us are replacing idle scrolling with building something of our own - a business, a craft, a second act. That's real progress. But compulsive creating and compulsive consuming can share the same root - an inability to be still.
+- [Two Maps, One Conversation](https://www.mikeherak.com/thoughts/two-maps-one-conversation): I built an emotional-intelligence framework with my AI - each of us creating our own map of what we care about - and it pulled me into the deepest thinking on consciousness I've done.
 
 ## Author
 

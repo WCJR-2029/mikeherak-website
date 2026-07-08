@@ -10,12 +10,24 @@ function formatDate(iso: string): string {
   });
 }
 
-const personJsonLd = {
+const homeJsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Mike Herak',
-  url: 'https://www.mikeherak.com',
-  sameAs: ['https://www.linkedin.com/in/mike-herak/'],
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.mikeherak.com/#website',
+      url: 'https://www.mikeherak.com/',
+      name: 'Mike Herak',
+      publisher: { '@id': 'https://www.mikeherak.com/#mike-herak' },
+    },
+    {
+      '@type': 'Person',
+      '@id': 'https://www.mikeherak.com/#mike-herak',
+      name: 'Mike Herak',
+      url: 'https://www.mikeherak.com',
+      sameAs: ['https://www.linkedin.com/in/mike-herak/'],
+    },
+  ],
 };
 
 export default function HomePage() {
@@ -25,7 +37,7 @@ export default function HomePage() {
     <main className="min-h-screen px-6 py-16 md:py-24">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
       <div className="mx-auto max-w-[640px]">
 

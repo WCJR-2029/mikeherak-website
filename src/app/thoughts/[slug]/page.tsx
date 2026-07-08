@@ -58,13 +58,13 @@ export default async function PostPage({
     '@type': 'Article',
     headline: post.title,
     description: post.description,
+    image: `${postUrl}/opengraph-image`,
     datePublished: post.date,
     url: postUrl,
-    author: {
-      '@type': 'Person',
-      name: 'Mike Herak',
-      url: 'https://www.mikeherak.com',
-    },
+    mainEntityOfPage: postUrl,
+    isPartOf: { '@id': 'https://www.mikeherak.com/#website' },
+    author: { '@id': 'https://www.mikeherak.com/#mike-herak' },
+    publisher: { '@id': 'https://www.mikeherak.com/#mike-herak' },
   };
 
   return (
