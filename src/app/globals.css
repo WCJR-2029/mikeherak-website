@@ -3,15 +3,15 @@
 /* ── Custom Theme (Tailwind 4) ─────────────────────────── */
 
 @theme {
-  /* Colors */
-  --color-bg:         #0d0d0d;
-  --color-surface:    #161616;
-  --color-fg:         #e8e0d4;
-  --color-heading:    #f5f0e8;
-  --color-muted:      #6b6560;
-  --color-accent:     #c8a96e;
-  --color-accent-dim: #a08450;
-  --color-border:     #2a2725;
+  /* Colors - "The Reading Room" (Option A, 2026-07-08) */
+  --color-bg:         #F7F1E3;
+  --color-surface:    #F0E8D4;
+  --color-fg:         #241E15;
+  --color-heading:    #1C1710;
+  --color-muted:      #6B5F4E;
+  --color-accent:     #7E5F27;
+  --color-accent-dim: #6B4F1E;
+  --color-border:     #DCD2BC;
 
   /* Fonts */
   --font-heading: var(--font-display), Georgia, serif;
@@ -47,12 +47,14 @@
 /* ── Selection ── */
 
 ::selection {
-  background-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  background-color: rgba(126, 95, 39, 0.18);
+  background-color: color-mix(in srgb, var(--color-accent) 18%, transparent);
   color: var(--color-accent);
 }
 
 ::-moz-selection {
-  background-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  background-color: rgba(126, 95, 39, 0.18);
+  background-color: color-mix(in srgb, var(--color-accent) 18%, transparent);
   color: var(--color-accent);
 }
 
@@ -61,7 +63,7 @@
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--color-bg); }
 ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #3a3735; }
+::-webkit-scrollbar-thumb:hover { background: #CCC0A6; }
 * { scrollbar-width: thin; scrollbar-color: var(--color-border) var(--color-bg); }
 
 /* ── Focus ── */
@@ -129,7 +131,8 @@
   padding: 1em 0 1em 1.5em;
   border-left: 3px solid var(--color-accent);
   font-weight: 500; font-style: italic; color: var(--color-fg);
-  background-color: color-mix(in srgb, var(--color-surface) 60%, transparent);
+  background-color: rgba(240, 232, 212, 0.55);
+  background-color: color-mix(in srgb, var(--color-surface) 55%, transparent);
   border-radius: 0 6px 6px 0;
 }
 
@@ -138,7 +141,8 @@
 
 .post-body a {
   color: var(--color-accent); text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--color-accent) 30%, transparent);
+  text-decoration-color: rgba(126, 95, 39, 0.35);
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
   text-underline-offset: 3px;
   transition: text-decoration-color 0.2s ease;
 }
@@ -210,7 +214,7 @@
   font-size: 0.6875rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #a09890;
+  color: var(--color-muted);
   font-family: var(--font-sans-custom), system-ui, sans-serif;
   margin-top: 1.25em;
   margin-bottom: 0.625em;
@@ -221,7 +225,7 @@
   font-size: 0.6875rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #a09890;
+  color: var(--color-muted);
   font-family: var(--font-sans-custom), system-ui, sans-serif;
   margin-top: 1.5em;
   margin-bottom: 0.875em;
@@ -267,7 +271,8 @@
   padding: 1em 0 1em 1.5em;
   border-left: 3px solid var(--color-accent);
   font-style: italic; color: var(--color-fg);
-  background-color: color-mix(in srgb, var(--color-surface) 60%, transparent);
+  background-color: rgba(240, 232, 212, 0.55);
+  background-color: color-mix(in srgb, var(--color-surface) 55%, transparent);
   border-radius: 0 6px 6px 0;
 }
 

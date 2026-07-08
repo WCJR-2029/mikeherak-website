@@ -77,10 +77,7 @@ export default function SamStackDiagram() {
         <Arrow label="activates" />
 
         {/* Tier 4 - the highlighted centerpiece */}
-        <div
-          className="rounded-lg border border-accent p-4"
-          style={{ backgroundColor: 'rgba(200, 169, 110, 0.05)' }}
-        >
+        <div className="rounded-lg border border-accent bg-accent/6 p-4">
           <div className="flex items-start gap-3">
             <Badge n="4" highlight />
             <div>
