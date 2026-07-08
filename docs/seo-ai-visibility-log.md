@@ -18,9 +18,13 @@ plus Google Search Console verification, sitemap submission, and manual indexing
 + all 3 essays) all shipped THIS SAME DAY as this baseline entry. This is day-zero - the
 cleanest possible starting point, before any crawl has had time to land.
 
-**Indexing (Google Search Console):** Not checked via dashboard this entry (verification and
-submission just completed same-day, nothing to report yet). Known from setup: property verified
-via HTML meta tag, sitemap submitted, indexing manually requested for `/` and all 3
+**Indexing (Google Search Console, checked same day):** Pages > Page Indexing report shows
+**"Processing data, please check again in a day or so"** on both the summary graph and the
+"Why pages aren't indexed" breakdown - confirms this is genuinely fresh (property verified same
+day this entry was written), not a stalled/broken setup. Zero data yet to read either way.
+**Next action: check back ~2026-07-10, GSC's own stated processing window.** Known from setup:
+property verified via HTML meta tag, sitemap submitted, indexing manually requested for `/` and
+all 3
 `/thoughts/*` URLs.
 
 **Live search probes (run 2026-07-08):**
