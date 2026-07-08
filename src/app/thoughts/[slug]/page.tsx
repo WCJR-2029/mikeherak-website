@@ -52,8 +52,27 @@ export default async function PostPage({
   const post = await getPost(slug);
   if (!post) notFound();
 
+  const postUrl = `https://www.mikeherak.com/thoughts/${post.slug}`;
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    url: postUrl,
+    author: {
+      '@type': 'Person',
+      name: 'Mike Herak',
+      url: 'https://www.mikeherak.com',
+    },
+  };
+
   return (
     <main className="min-h-screen px-6 py-16 md:py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <div className="mx-auto max-w-[640px] lg:max-w-[920px]">
         <div className="lg:flex lg:gap-12">
 

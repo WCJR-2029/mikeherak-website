@@ -10,11 +10,23 @@ function formatDate(iso: string): string {
   });
 }
 
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Mike Herak',
+  url: 'https://www.mikeherak.com',
+  sameAs: ['https://www.linkedin.com/in/mike-herak/'],
+};
+
 export default function HomePage() {
   const posts = getAllPostMeta();
 
   return (
     <main className="min-h-screen px-6 py-16 md:py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
       <div className="mx-auto max-w-[640px]">
 
         {/* ── Header ── */}
