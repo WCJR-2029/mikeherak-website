@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       'application/rss+xml': [{ url: '/feed.xml', title: 'Mike Herak' }],
     },
   },
+  verification: {
+    google: 'TaTEFD_1qmt42jZfPpZXPPX5ArQym-t-UX2BZf6Dj7c',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
