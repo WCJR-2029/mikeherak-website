@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     template: '%s - Mike Herak',
   },
   description:
-    "Marine. Percussionist. Fortune 100 ops leader turned independent mind. Writing about whatever I can't stop thinking about.",
+    "Essays on whatever I can't stop thinking about - come think along.",
   metadataBase: new URL('https://mikeherak.com'),
   openGraph: {
     title: 'Mike Herak',
-    description: "Writing about whatever I can't stop thinking about.",
+    description: "Essays on whatever I can't stop thinking about - come think along.",
     url: 'https://mikeherak.com',
     siteName: 'Mike Herak',
     locale: 'en_US',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Mike Herak',
-    description: "Writing about whatever I can't stop thinking about.",
+    description: "Essays on whatever I can't stop thinking about - come think along.",
   },
   robots: { index: true, follow: true },
 };

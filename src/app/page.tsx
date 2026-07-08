@@ -24,7 +24,7 @@ export default function HomePage() {
           </h1>
           <div className="mt-4 w-10 h-px bg-accent opacity-80" />
           <p className="mt-4 font-body text-base leading-relaxed text-muted">
-            A place to capture and publish my thoughts and ideas. Hope you enjoy.
+            Essays on whatever I can&rsquo;t stop thinking about - come think along.
           </p>
           <a
             href="https://www.linkedin.com/in/mike-herak/"
