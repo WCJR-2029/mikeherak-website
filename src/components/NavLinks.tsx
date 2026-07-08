@@ -15,10 +15,12 @@ export default function NavLinks() {
   };
 
   return (
-    <nav className="max-w-[640px] mx-auto px-6 pt-6 flex gap-6">
-      <Link href="/" className={linkClass('/')}>
-        Thoughts
-      </Link>
+    <nav className="px-6 pt-6">
+      <div className="mx-auto flex max-w-[640px] gap-6">
+        <Link href="/" className={linkClass('/')}>
+          Thoughts
+        </Link>
+      </div>
     </nav>
   );
 }
