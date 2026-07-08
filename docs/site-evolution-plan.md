@@ -233,7 +233,7 @@ V1: schemas match (and contain no forbidden fields). V2: build. V3: dev curl / a
 Done. Three candidates rendered on the live essay page, artifact delivered to Mike:
 claude.ai/code/artifact/60a4a831-5d8d-4122-9630-c3feed4f897f
 Candidates: Inter (current), Literata (SAM's recommendation), Source Serif 4.
-**AWAITING: Mike's pick.** Fill it in here when made: `FONT_CHOICE = ______________`
+**DECIDED 2026-07-08: `FONT_CHOICE = Literata`** (Mike went with SAM's recommendation).
 
 ## PHASE 2b - Font swap + dark mode with toggle (MODEL: Sonnet, after FONT_CHOICE is filled)
 
