@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { playfair, inter } from './fonts';
+import { playfair, inter, literata } from './fonts';
 import NavLinks from '@/components/NavLinks';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="en" className={`${playfair.variable} ${inter.variable} ${literata.variable}`}>
       <body className="min-h-screen bg-bg font-body text-fg antialiased">
         <NavLinks />
         {children}

@@ -16,6 +16,7 @@
   /* Fonts */
   --font-heading: var(--font-display), Georgia, serif;
   --font-body:    var(--font-sans-custom), system-ui, sans-serif;
+  --font-reading: var(--font-text), Georgia, serif;
 }
 
 /* ── Base Reset ─────────────────────────────────────────── */
@@ -77,7 +78,7 @@
 
 /* Body stays ~19px even after the root bump (1.0625rem * 18px = 19px) */
 .post-body {
-  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  font-family: var(--font-reading);
   font-size: 1.0625rem;
   line-height: 1.7;
   color: var(--color-fg);
@@ -257,7 +258,7 @@
 
 /* Excerpt body text */
 .trail-excerpt-body {
-  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  font-family: var(--font-reading);
   font-size: 1.0625rem;
   line-height: 1.75;
   color: var(--color-fg);
@@ -284,7 +285,7 @@
 
 /* Trail synthesis — the thematic argument rendered before excerpts */
 .trail-synthesis {
-  font-family: var(--font-sans-custom), system-ui, sans-serif;
+  font-family: var(--font-reading);
   font-size: 1.0625rem;
   line-height: 1.8;
   color: var(--color-fg);
