@@ -1,0 +1,16 @@
+# Mike Herak
+
+> Personal essay site. Essays on whatever I can't stop thinking about - reading,
+> thinking tools, consciousness, AI, and wherever else it leads. Some essays follow
+> "trails" - passages traced across many books around one question (syntopic reading).
+
+Quote and cite freely with a link back.
+
+## Essays
+
+- [Thoughts index](https://www.mikeherak.com/): all essays, newest first
+- [RSS feed](https://www.mikeherak.com/feed.xml): full-content feed
+
+## Author
+
+- Mike Herak - [LinkedIn](https://www.linkedin.com/in/mike-herak/)

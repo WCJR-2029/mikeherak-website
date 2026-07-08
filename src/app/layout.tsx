@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     description: "Essays on whatever I can't stop thinking about - come think along.",
   },
   robots: { index: true, follow: true },
+  alternates: {
+    types: {
+      'application/rss+xml': [{ url: '/feed.xml', title: 'Mike Herak' }],
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
