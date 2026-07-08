@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import ThemeToggle from './ThemeToggle';
 
 export default function NavLinks() {
   const pathname = usePathname();
@@ -20,6 +21,7 @@ export default function NavLinks() {
         <Link href="/" className={linkClass('/')}>
           Thoughts
         </Link>
+        <ThemeToggle />
       </div>
     </nav>
   );

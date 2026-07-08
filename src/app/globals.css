@@ -19,6 +19,56 @@
   --font-reading: var(--font-text), Georgia, serif;
 }
 
+/* ── Dark Mode (Option B "After Dark, Repaired") ─────────── */
+
+/* Explicit user choice, set via the toggle and persisted to localStorage */
+:root[data-theme="dark"] {
+  --color-bg:         #141110;
+  --color-surface:    #1D1915;
+  --color-fg:         #EAE2D6;
+  --color-heading:    #F6F1E8;
+  --color-muted:      #9A8F80;
+  --color-accent:     #CFAF74;
+  --color-accent-dim: #B99A62;
+  --color-border:     #322C26;
+}
+
+/* System preference, for visitors with no stored choice (no-JS / pre-hydration fallback -
+   the no-FOUC script in layout.tsx normally resolves and writes data-theme before paint, but
+   this pure-CSS block covers the case where it hasn't run. Paired with the block above -
+   keep both sets of 8 values identical if either ever changes). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg:         #141110;
+    --color-surface:    #1D1915;
+    --color-fg:         #EAE2D6;
+    --color-heading:    #F6F1E8;
+    --color-muted:      #9A8F80;
+    --color-accent:     #CFAF74;
+    --color-accent-dim: #B99A62;
+    --color-border:     #322C26;
+  }
+}
+
+/* Non-token literals: dark-appropriate values for the STATIC rgba fallback lines only -
+   the color-mix lines already follow the tokens above automatically in both themes. */
+:root[data-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: #4A4238; }
+
+:root[data-theme="dark"] ::selection {
+  background-color: rgba(207, 175, 116, 0.18);
+  background-color: color-mix(in srgb, var(--color-accent) 18%, transparent);
+}
+:root[data-theme="dark"] ::-moz-selection {
+  background-color: rgba(207, 175, 116, 0.18);
+  background-color: color-mix(in srgb, var(--color-accent) 18%, transparent);
+}
+
+:root[data-theme="dark"] .post-body blockquote,
+:root[data-theme="dark"] .trail-excerpt-body blockquote {
+  background-color: rgba(29, 25, 21, 0.55);
+  background-color: color-mix(in srgb, var(--color-surface) 55%, transparent);
+}
+
 /* ── Base Reset ─────────────────────────────────────────── */
 
 @layer base {

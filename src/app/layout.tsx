@@ -6,8 +6,15 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 
 export const viewport: Viewport = {
-  themeColor: '#F7F1E3',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#F7F1E3' },
+    { media: '(prefers-color-scheme: dark)', color: '#141110' },
+  ],
 };
+
+// Resolves and writes the theme before first paint, so there is no flash of the
+// wrong theme. Plain inline script, not a React effect - must run before body paint.
+const themeInitScript = `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light'){document.documentElement.dataset.theme=t;}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.dataset.theme='dark';}}catch(e){}})();`;
 
 export const metadata: Metadata = {
   title: {
@@ -43,8 +50,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable} ${literata.variable}`}>
+    <html
+      lang="en"
+      className={`${playfair.variable} ${inter.variable} ${literata.variable}`}
+      suppressHydrationWarning
+    >
       <body className="min-h-screen bg-bg font-body text-fg antialiased">
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <NavLinks />
         {children}
         <Analytics />
