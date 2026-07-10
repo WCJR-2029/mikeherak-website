@@ -62,4 +62,14 @@ Request Indexing pass or a check of whether Google Search Console shows the old 
 detected duplicate/removal candidate.
 
 ---
-<!-- Entry 2 - YYYY-MM-DD: append next month -->
+## Entry 2 - 2026-07-10 (interim indexing check - still processing)
+
+**Indexing (GSC, checked by Mike):** still not complete - no readable index-status data yet,
+past GSC's own stated ~24-48h window from the 7/8 setup. Not alarming at 2 days for a recrawl-
+and-replace case, but worth a tighter follow-up than the ~8/1 full probe.
+**Next action: re-check Wed 2026-07-15** (Personal OS task due date bumped 7/10 -> 7/15).
+Search probes NOT re-run this entry - indexing-only interim check; the full probe set
+(site:, non-branded, ghost-page status) stays scheduled for ~2026-08-01 per Entry 1.
+
+---
+<!-- Entry 3 - YYYY-MM-DD: append at the 7/15 re-check or ~8/1 full probe -->
