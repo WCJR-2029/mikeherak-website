@@ -34,6 +34,9 @@ export async function generateMetadata({
   return {
     title: post.title,
     description: post.description ?? post.contentHtml.replace(/<[^>]+>/g, '').slice(0, 155),
+    alternates: {
+      canonical: `/thoughts/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.description,

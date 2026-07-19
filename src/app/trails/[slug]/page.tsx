@@ -29,6 +29,9 @@ export async function generateMetadata({
   return {
     title: trail.title,
     description: trail.description,
+    alternates: {
+      canonical: `/trails/${slug}`,
+    },
     openGraph: {
       title: trail.title,
       description: trail.description,

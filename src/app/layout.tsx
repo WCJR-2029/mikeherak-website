@@ -23,11 +23,11 @@ export const metadata: Metadata = {
   },
   description:
     "Essays on whatever I can't stop thinking about - come think along.",
-  metadataBase: new URL('https://mikeherak.com'),
+  metadataBase: new URL('https://www.mikeherak.com'),
   openGraph: {
     title: 'Mike Herak',
     description: "Essays on whatever I can't stop thinking about - come think along.",
-    url: 'https://mikeherak.com',
+    url: 'https://www.mikeherak.com',
     siteName: 'Mike Herak',
     locale: 'en_US',
     type: 'website',
@@ -39,6 +39,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   alternates: {
+    canonical: '/',
     types: {
       'application/rss+xml': [{ url: '/feed.xml', title: 'Mike Herak' }],
     },

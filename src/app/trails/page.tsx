@@ -5,6 +5,9 @@ import { getAllTrailMeta } from '@/lib/trails';
 export const metadata: Metadata = {
   title: 'Trails',
   description: 'Cross-book reading sequences connected by a single idea.',
+  alternates: {
+    canonical: '/trails',
+  },
 };
 
 function formatDate(iso: string): string {
